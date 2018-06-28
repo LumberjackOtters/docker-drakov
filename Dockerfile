@@ -8,6 +8,8 @@ RUN npm install -g drakov
 
 WORKDIR /mock
 
+EXPOSE 3000
+
 ENTRYPOINT ["drakov"]
 
 CMD ["--help"]
