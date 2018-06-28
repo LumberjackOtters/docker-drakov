@@ -10,6 +10,6 @@ WORKDIR /mock
 
 EXPOSE 3000
 
-ENTRYPOINT ["drakov"]
+ENTRYPOINT ["drakov --public"]
 
 CMD ["--help"]
